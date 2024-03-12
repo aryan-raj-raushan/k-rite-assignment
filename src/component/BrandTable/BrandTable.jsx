@@ -47,15 +47,15 @@ const BrandTable = ({ setNum, searchInput }) => {
             </th>
             <th
               scope="col"
-              className={`border py-2 px-3 font-normal min-w-44 lg:min-w-fit ${
-                isAnyDescriptionExpanded() ? "w-auto" : "w-44"
+              className={`border py-2 px-3 font-normal ${
+                isAnyDescriptionExpanded() ? "w-full " : "w-44"
               }`}
             >
               Description
             </th>
             <th
               scope="col"
-              className="border py-2 px-3 font-normal min-w-60 lg:min-w-full lg:w-full"
+              className="border py-2 px-3 font-normal min-w-48 lg:min-w-44"
             >
               Members
             </th>
@@ -86,7 +86,7 @@ const BrandTable = ({ setNum, searchInput }) => {
                 >
                   <td className="border-y py-1 px-3">
                     <div className="flex items-center gap-2 justify-between cursor-default">
-                      <div className="flex items-center text-xs sm:text-base">
+                      <div className="flex items-center text-xs md:text-sm lg:text-base">
                         <input
                           type="checkbox"
                           className="w-3 h-3 rounded-lg outline-none mr-1.5 cursor-pointer accent-black"
@@ -96,9 +96,9 @@ const BrandTable = ({ setNum, searchInput }) => {
                         <img
                           src={item.logo}
                           alt=""
-                          width={500}
-                          height={500}
-                          className="w-6 h-6 bg-contain"
+                          width={200}
+                          height={200}
+                          className="w-5 h-5 bg-contain object-contain mr-1"
                         />
                         {item.brand}
                       </div>
@@ -115,7 +115,7 @@ const BrandTable = ({ setNum, searchInput }) => {
                     {isDescriptionExpanded(index) ? (
                       <span className="text-sm w-full">{item.description}</span>
                     ) : (
-                      <span className="text-sm w-full !line-clamp-1 truncate">
+                      <span className="text-sm !line-clamp-1 truncate">
                         {item.description.slice(0, 36)}...
                       </span>
                     )}
