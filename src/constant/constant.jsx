@@ -1,13 +1,13 @@
 import Disney from "../asset/images/disney.png";
 import Google from "../asset/images/google.svg";
 import Shopify from "../asset/images/shopify.svg";
-import MailChimp from "../asset/images/disney.png";
-import Wix from "../asset/images/disney.png";
+import MailChimp from "../asset/images/mailchimp.svg";
+import Wix from "../asset/images/wix.png";
 import PayPal from "../asset/images/paypal.svg";
-import Intercom from "../asset/images/disney.png";
+import Intercom from "../asset/images/intercom.png";
 import Microsoft from "../asset/images/microsoft.svg";
 import Evernote from "../asset/images/evernote.png";
-import Invision from "../asset/images/disney.png";
+import Invision from "../asset/images/invision.png";
 
 export const folders = [
   {
@@ -26,129 +26,6 @@ export const folders = [
     submenu: ["Roadmap", "Feedback", "Performance", "Team", "Analytics"],
   },
 ];
-
-// export const BrandTableData = [
-//   {
-//     brand: "Wix",
-//     logo: Wix,
-//     description: "Develop a personalized fitness platform ",
-//     member: "Arjun, Neha",
-//     categories: "Automation",
-//     tags: "#DigitalTransformation",
-//     nextMeeting: "In 30 minutes",
-//     meetingColor: "bg-green-300",
-//     categoryColor: "bg-purple-300",
-//     primaryColor: "text-purple-700",
-//   },
-//   {
-//     brand: "Shopify",
-//     logo: Shopify,
-//     description: "Introduced a cloud-based platform",
-//     member: "Priya, Sanjana, Rohan, Kritika,Aryan, Tejwant",
-//     categories: "E-commerce, B2B",
-//     tags: "#OnlineShopping",
-//     nextMeeting: "Tomorrow",
-//     meetingColor: "bg-blue-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "MailChimp",
-//     logo: MailChimp,
-//     description: "Develop a mobile app aim.",
-//     member: "Amit, Deepika, Tanvi, Rajesh",
-//     categories: "SAAS, Mobile",
-//     tags: "#TechInnovation",
-//     nextMeeting: "Tomorrow",
-//     meetingColor: "bg-blue-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "PayPal",
-//     logo: PayPal,
-//     description: "Develop a mobile app aim.",
-//     member: "Rahul, Nisha",
-//     categories: "Marketplace",
-//     tags: "#BuySellOnline",
-//     nextMeeting: "In 6 hours",
-//     meetingColor: "bg-green-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "Disney",
-//     logo: Disney,
-//     description: "Develop a mobile app aim.",
-//     member: "Akshay, Pooja, Rakesh",
-//     categories: "B2B, B2C",
-//     tags: "#BusinessPartnerships",
-//     nextMeeting: "No contact",
-//     meetingColor: "bg-red-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "Intercom",
-//     logo: Intercom,
-//     description: "Develop a mobile app aim.",
-//     member: "Varun",
-//     categories: "SAAS",
-//     tags: "#SmartFinance",
-//     nextMeeting: "in 1 hour",
-//     meetingColor: "bg-green-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "Google",
-//     logo: Google,
-//     description: "Develop a mobile app aim.",
-//     member: "Vishal, Sonali, Pradeep, Priyanka",
-//     categories: "Technology, SAAS",
-//     tags: "#SmartFinance",
-//     nextMeeting: "In 30 minutes",
-//     meetingColor: "bg-green-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "Evernote",
-//     logo: Evernote,
-//     description: "Develop a mobile app aim.",
-//     member: "Gaurav, Kavita, Rishi",
-//     categories: "Finance, Automation",
-//     tags: "#LogisticsTech",
-//     nextMeeting: "Next month",
-//     meetingColor: "bg-gray-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "Microsoft",
-//     logo: Microsoft,
-//     description: "Develop a mobile app aim.",
-//     member: "Akanksha, Sahil, Rohit",
-//     categories: "Transportation",
-//     tags: "#B2CMarketing",
-//     nextMeeting: "No contact",
-//     meetingColor: "bg-red-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-//   {
-//     brand: "Invision",
-//     logo: Invision,
-//     description: "Develop a mobile app aim.",
-//     member: "Kunal, Priya",
-//     categories: "Publishing",
-//     tags: "#ApiIntegration",
-//     nextMeeting: "Next month",
-//     meetingColor: "bg-gray-300",
-//     categoryColor: "bg-red-300",
-//     primaryColor: "text-red-700",
-//   },
-// ];
 
 export const BrandTableData = [
   {
@@ -170,7 +47,7 @@ export const BrandTableData = [
   {
     brand: "Shopify",
     logo: Shopify,
-    description: "Introduced a cloud-based platform",
+    description: "Introduced a cloud-based shopping platform",
     member: "Priya, Sanjana, Rohan, Kritika, Aryan, Tejwant",
     categories: [
       { name: "E-commerce", color: "bg-red-300", textColor: "text-red-700" },
@@ -183,7 +60,7 @@ export const BrandTableData = [
   {
     brand: "MailChimp",
     logo: MailChimp,
-    description: "Develop a mobile app aim.",
+    description: "Develop a mobile app technology",
     member: "Amit, Deepika, Tanvi, Rajesh",
     categories: [
       { name: "SAAS", color: "bg-green-300", textColor: "text-green-700" },
@@ -196,7 +73,7 @@ export const BrandTableData = [
   {
     brand: "PayPal",
     logo: PayPal,
-    description: "Develop a mobile app aim.",
+    description: "This program could includes cloud based payment",
     member: "Rahul, Nisha",
     categories: [
       {
@@ -212,7 +89,7 @@ export const BrandTableData = [
   {
     brand: "Disney",
     logo: Disney,
-    description: "Develop a mobile app aim.",
+    description: "Introduce a B2B soulution for movies.",
     member: "Akshay, Pooja, Rakesh",
     categories: [
       { name: "B2B", color: "bg-yellow-300", textColor: "text-yellow-700" },
@@ -225,7 +102,7 @@ export const BrandTableData = [
   {
     brand: "Intercom",
     logo: Intercom,
-    description: "Develop a mobile app aim.",
+    description: "Implement an AI-driven Company",
     member: "Varun",
     categories: [
       { name: "Technology", color: "bg-blue-300", textColor: "text-blue-700" },
@@ -238,7 +115,7 @@ export const BrandTableData = [
   {
     brand: "Google",
     logo: Google,
-    description: "Develop a mobile app aim.",
+    description: "Offer a comprehensive understanding.",
     member: "Vishal, Sonali, Pradeep, Priyanka",
     categories: [
       { name: "Finance", color: "bg-indigo-300", textColor: "text-indigo-700" },
@@ -251,7 +128,7 @@ export const BrandTableData = [
   {
     brand: "Evernote",
     logo: Evernote,
-    description: "Develop a mobile app aim.",
+    description: "This could include smart writing notes",
     member: "Gaurav, Kavita, Rishi",
     categories: [
       {
@@ -267,7 +144,7 @@ export const BrandTableData = [
   {
     brand: "Microsoft",
     logo: Microsoft,
-    description: "Develop a mobile app aim.",
+    description: "Launch an advisory services for Windows",
     member: "Akanksha, Sahil, Rohit",
     categories: [
       { name: "Publishing", color: "bg-pink-300", textColor: "text-pink-700" },
@@ -280,10 +157,14 @@ export const BrandTableData = [
   {
     brand: "Invision",
     logo: Invision,
-    description: "Develop a mobile app aim.",
+    description: "The tool would analyze data efficiently.",
     member: "Kunal, Priya",
     categories: [
-      { name: "Web Services", color: "bg-gray-300", textColor: "text-gray-700" },
+      {
+        name: "Web Services",
+        color: "bg-gray-300",
+        textColor: "text-gray-700",
+      },
     ],
     tags: ["#ApiIntegration"],
     nextMeeting: "Next month",
