@@ -24,8 +24,8 @@ const BrandTable = ({ setNum, searchInput }) => {
     pink[400],
   ];
   return (
-    <div className="overflow-x-auto w-96 xs:w-[35rem] sm:w-[44rem] md:w-[60rem] lg:w-full no-scrollbar">
-      <table className="">
+    <div className="overflow-x-auto no-scrollbar">
+      <table className="w-full">
         <thead className="font-thin">
           <tr className="font-normal text-gray-500 text-left cursor-default ">
             <th

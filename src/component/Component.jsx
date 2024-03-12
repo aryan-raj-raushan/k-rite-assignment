@@ -24,7 +24,7 @@ const Component = () => {
       {/* ------------------------------Sidebar ------------------------------ */}
       <Sidebar isOpen={isOpen} toggleHamburger={toggleHamburger} />
       {/* ------------------------------ Main Screen ----------------------------- */}
-      <main className="flex-1 bg-white m-2 border border-gray-200 rounded-lg relative z-10 h-full lg:h-auto">
+      <main className="flex-1 bg-white m-2 border border-gray-200 rounded-lg relative z-10 h-full lg:h-auto w-full">
         {/* Bottom float menu */}
         <div className="absolute -bottom-20 lg:bottom-4 left-1/2 transform -translate-x-1/2 mx-auto flex items-center gap-3 shadow-md drop-shadow border border-gray-100 px-3 py-1 rounded-lg z-50 bg-white">
           {num > 0 && (
@@ -54,7 +54,7 @@ const Component = () => {
         {/* ----------------------- Heading section right side -----------------------  */}
         <div className="flex items-center justify-between py-3 border-b px-2 sm:px-6">
           {/* Mobile menu */}
-          <div className="flex items-center gap-2 lg:hidden">
+          <div className="flex items-center gap-2 xl:hidden">
             <span onClick={toggleHamburger}>
               <RxHamburgerMenu />
             </span>
@@ -62,7 +62,7 @@ const Component = () => {
               Products
             </p>
           </div>
-          <p className="hidden lg:block text-base sm:text-lg font-medium text-gray-800">
+          <p className="hidden xl:block text-base sm:text-lg font-medium text-gray-800">
             Products
           </p>
           <div className="flex items-center gap-3">

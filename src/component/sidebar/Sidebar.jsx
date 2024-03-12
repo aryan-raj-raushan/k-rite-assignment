@@ -24,9 +24,9 @@ const Sidebar = ({ isOpen, toggleHamburger }) => {
   };
   return (
     <aside
-      className={`lg:flex lg:flex-col lg:justify-between lg:w-72 bg-white m-2 border border-gray-200 rounded-lg p-2 overflow-y-scroll no-scrollbar ${
+      className={`xl:flex xl:flex-col xl:justify-between xl:w-72 bg-white m-2 border border-gray-200 rounded-lg p-2 overflow-y-scroll no-scrollbar ${
         isOpen
-          ? "block absolute !z-[999] left-300 transition-all duration-300 h-screen lg:h-full"
+          ? "block absolute !z-[999] left-300 transition-all duration-300 h-screen xl:h-full"
           : "hidden left-0 transition-all duration-300"
       }`}
     >
